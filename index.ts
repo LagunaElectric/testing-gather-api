@@ -3,7 +3,7 @@ import { Game, WireObject } from "@gathertown/gather-game-client"
 global.WebSocket = require("isomorphic-ws")
 
 // replace with your spaceId, that you can edit
-const SPACE_ID = "your\\SpaceId"
+const SPACE_ID = "VfxpMKvH2yFK3tMz\\Laguna Office"
 const MAP_ID = "your-map-id"
 
 const game = new Game(SPACE_ID, () => Promise.resolve({ apiKey: API_KEY }))
